@@ -1,0 +1,11 @@
+#fugitivo{
+    margin-top: 500px;
+    margin-left: 600px;  
+}
+#titulo{
+    text-align: center;
+}
+body{
+    background-image: url(../others/giphy.gif);
+    background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;background-color: rgba(163, 163, 159, 0.6);background-blend-mode: lighten;
+}
