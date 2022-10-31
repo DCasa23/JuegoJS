@@ -2,20 +2,23 @@ body{
     background-image: url(../images/galicia.png) ;
     background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;
 }
+body h1{
+    text-align: center;
+}
 .contenedor{
     position:relative;
 }
 #player{
 
        position:absolute;
-       margin-top: 76vh;
+       margin-top: 66vh;
        
    
 }
 #bigboss{
 
     position:absolute;
-    margin-top: 71vh;
+    margin-top: 61vh;
     margin-left: -150px;
     
 
