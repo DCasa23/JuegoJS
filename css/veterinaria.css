@@ -1,0 +1,22 @@
+body{
+    background-image: url(../images/galicia.png) ;
+    background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;
+}
+.contenedor{
+    position:relative;
+}
+#player{
+
+       position:absolute;
+       margin-top: 76vh;
+       
+   
+}
+#bigboss{
+
+    position:absolute;
+    margin-top: 71vh;
+    margin-left: -150px;
+    
+
+}
