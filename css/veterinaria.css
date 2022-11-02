@@ -18,7 +18,7 @@ body h1{
        position:absolute;
        margin-top: 70vh;
        margin-left: 0vw;
-       background: url(../images/corredor.png); 
+       background: url("../images/corredor.png"; 
        alt="veterinario"; 
        width="100px"; 
        height="120px"
