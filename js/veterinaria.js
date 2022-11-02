@@ -3,7 +3,7 @@ alert('No tendrás mas que 3 segundos antes de empezar a correr');
 alert('Si te digo Run...RUN!!')
 pasos = false;
 valor = 0;
-valor2 = -150;
+valor2 = 0;
 document.onkeydown = correr;
 
 function correr(e) {
@@ -54,10 +54,13 @@ function myCallback() {
         location.href ="http://www.google.com";
         
     }
-    if(valor>1294){
+    
+    if(document.getElementById('ventana').scrollLeft){
+        console.log(valor);
         location.href ="http://www.marca.com";
         
     }
+    
     console.log("El valor Jugador es:"+player.style.marginLeft+"y el valor real: "+valor)
     console.log("El valor Vaca es:"+bigboss.style.marginLeft+"y el valor real: "+valor2);
     valor2 = valor2 + 120;

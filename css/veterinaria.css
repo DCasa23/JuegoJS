@@ -1,33 +1,42 @@
 body{
-    background-image: url(../images/galicia.png) ;
-    background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;
+    
 }
 body h1{
     text-align: center;
 }
 .contenedor{
+    
+    background-image: url(../images/galicia.png) ;
+    background-repeat:no-repeat;background-attachment:fixed;
     position:relative;
+    width: 1300px;
+    height: 880px;
+    margin: 0 auto;
 }
 #player{
 
        position:absolute;
-       margin-top: 68vh;
-       
+       margin-top: 70vh;
+       margin-left: 0vw;
+       background: url(../images/corredor.png); 
+       alt="veterinario"; 
+       width="100px"; 
+       height="120px"
    
 }
 #bigboss{
 
     position:absolute;
-    margin-top: 61vh;
-    margin-left: -150px;
-    
+    margin-top: 65vh;
+    margin-left: -10vw;
+  
 
 }
 #oficina{
 
     position:absolute;
-    margin-top: 54.5vh;
-    margin-left: 1325px;
+    margin-top: 65vh;
+    margin-left: 89vw;
     
 
 }
