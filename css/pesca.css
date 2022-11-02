@@ -4,7 +4,15 @@ body{
 }
 body h1{
     text-align: center;
+    
 }
+
+#fondoFalso{
+    position:relative;
+    width: 100vh;
+    
+}
+
 .contenedor{
     position:relative;
 }

@@ -9,8 +9,18 @@
     <title>Bienvenido a mi Mundo</title>
     
 </head>
-<body ondblclick="lanzarCaña()">
+<body onmouseover="showCoords(event)" ondblclick="lanzarCaña()"  >
+<!--<img src="../images/PescaTotal.jpg"usemap="#mapa_zonas" id="fondoFalso">
+<map name="mapa_zonas">
+  <area shape="pez" coords="470,188,45,44" href="http://www.marca.com" />
+  <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="triangulo.html" />
+  <area shape="circle" coords="130,114,29" href="circulo.html" />
+  <area shape="rect" coords="19,156,170,211" href="mailto:rectangulo@direccion.com" />
+  <area shape="default" nohref="nohref" />
+</map>
+-->
     <h1>No todo el monte es oregano</h1>
+    <p id="demo"></p>
     <div class="contenedor">
     <img  id="anzuelo" src="../images/anzuelo.png" alt="menu" width="50px" height="36px">
     <script src="../js/pesca.js">
