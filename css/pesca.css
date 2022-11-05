@@ -1,12 +1,32 @@
 body{
+    background-image: url(../images/cineoscuro.webp) ;
+    background-repeat:no-repeat;background-size: 100% 100%;background-attachment:fixed;
+}
+body h1{
+    background-color: antiquewhite;
+    text-align: center;
+    
+    
+}
+.contenedor{
+    overflow: hidden;
+    background-image: url(../images/PescaTotal.jpg) ;
+    background-repeat:no-repeat;background-size: 1300px 500px;
+    position:relative;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}
+/*
+body{
     background-image: url(../images/PescaTotal.jpg) ;
     background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;
-}
+}*/
 body h1{
     text-align: center;
     
 }
-
+/*
 #fondoFalso{
     position:relative;
     width: 100vh;
@@ -15,28 +35,16 @@ body h1{
 
 .contenedor{
     position:relative;
-}
+}*/
 #anzuelo{
 
        position:absolute;
-       margin-left: 1208px;
-       margin-top: 12.5vh;
+       margin-left: 1025px;
+       margin-top: 110px;
+       background-image: url(../images/anzuelo.png) ;
+       background-repeat:no-repeat;background-size: 50px 36px;
+       width:50px;
+    height:36px;
        
    
-}
-#bigboss{
-
-    position:absolute;
-    margin-top: 61vh;
-    margin-left: -150px;
-    
-
-}
-#oficina{
-
-    position:absolute;
-    margin-top: 54.5vh;
-    margin-left: 1325px;
-    
-
 }
