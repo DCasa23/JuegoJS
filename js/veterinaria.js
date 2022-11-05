@@ -50,12 +50,12 @@ setTimeout(function(){
 var movimientoVaca = setInterval(myCallback, 1000);
 
 function myCallback() {
-    if(valor-100<valor2){
+    if(valor-60<valor2){
         location.href ="http://www.google.com";
         
     }
     
-    if(document.getElementById('ventana').scrollLeft){
+    if(valor>=1110){
         console.log(valor);
         location.href ="http://www.marca.com";
         

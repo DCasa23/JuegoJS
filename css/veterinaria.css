@@ -1,11 +1,15 @@
 body{
-    
+    background-image: url(../images/cineoscuro.webp) ;
+    background-repeat:no-repeat;background-size: 100% 100%;background-attachment:fixed;
 }
 body h1{
+    background-color: antiquewhite;
     text-align: center;
+    
+    
 }
 .contenedor{
-    
+    overflow: hidden;
     background-image: url(../images/galicia.png) ;
     background-repeat:no-repeat;background-size: 1300px 500px;
     position:relative;
@@ -16,7 +20,8 @@ body h1{
 #player{
 
     position:absolute;
-    /*margin-top: 410px;*/
+    margin-top: 410px;
+    
     /*margin-left: 0vw;*/
     background: url("../images/corredor.png");
     background-size: 50px 60px; 
@@ -27,16 +32,30 @@ body h1{
 #bigboss{
 
     position:absolute;
-    margin-top: 65vh;
-    margin-left: -10vw;
+    
+    margin-top: 380px;
+    margin-left: -130px;
+    
+    /*margin-left: 0vw;*/
+    background: url("../images/vaca.png");
+    background-size: 150px 100px; 
+    width:150px; 
+    height:100px;
   
 
 }
 #oficina{
 
     position:absolute;
-    margin-top: 65vh;
-    margin-left: 89vw;
+    
+    margin-left: 1150px;
+    margin-top: 310px;
+    /*margin-left: 0vw;*/
+    background: url("../images/oficina.png");
+    background-size: 150px 150px; 
+    width:150px; 
+    height:150px;
+  
     
 
 }
