@@ -64,7 +64,7 @@ function myCallback() {
     console.log("El valor Jugador es:"+player.style.marginLeft+"y el valor real: "+valor)
     console.log("El valor Vaca es:"+bigboss.style.marginLeft+"y el valor real: "+valor2);
     valor2 = valor2 + 120;
-    document.getElementById("bigboss").style.transitionDuration = "1s";
+    document.getElementById("bigboss").style.transitionDuration = "2s";
     document.getElementById("bigboss").style.marginLeft = valor2 + "px";
 }
 
