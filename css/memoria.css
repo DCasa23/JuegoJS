@@ -8,6 +8,11 @@ body h1{
     
     
 }
+#contador{
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
 .contenedor{
 
     background-color: antiquewhite;
@@ -21,14 +26,13 @@ body h1{
 #cuadrado1{
 
     
-     
     float:left;
-    margin: 20px;
+    margin: 20px 20px 20px 160px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado2{
@@ -39,9 +43,9 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado3{
@@ -51,9 +55,9 @@ body h1{
     float:left;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado4{
@@ -63,9 +67,9 @@ body h1{
     float:left;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado5{
@@ -75,33 +79,33 @@ body h1{
     float:left;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado6{
 
     
     float:left;
-    margin: 20px;
+    margin: 20px 80px 20px 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
-#cuadrad7{
+#cuadrado7{
 
     float:left;
      
-    margin: 20px;
+    margin: 20px 20px 20px 160px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado8{
@@ -111,9 +115,9 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado9{
@@ -123,9 +127,9 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado10{
@@ -135,9 +139,9 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado11{
@@ -147,33 +151,33 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado12{
 
     
     float:left;
-    margin: 20px;
+    margin: 20px 80px 20px 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado13{
 
     
     float:left; 
-    margin: 20px;
+    margin: 20px 20px 20px 160px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado14{
@@ -183,9 +187,9 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado15{
@@ -195,9 +199,9 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado16{
@@ -207,33 +211,33 @@ body h1{
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
-#cuadrad17{
+#cuadrado17{
 
     float:left;
      
     margin: 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #cuadrado18{
 
     float:left;
      
-    margin: 20px;
+    margin: 20px 80px 20px 20px;
     /*margin-left: 0vw;*/
     background: url("../images/Cuadrado/Modelo.png");
-    background-size: 150px 180px; 
-    width:150px; 
-    height:180px;
+    background-size: 125px 120px; 
+    width:125px; 
+    height:120px;
    
 }
 #bigboss{
@@ -246,7 +250,7 @@ body h1{
     /*margin-left: 0vw;*/
     background: url("../images/vaca.png");
     background-size: 150px 100px; 
-    width:150px; 
+    width:125px; 
     height:100px;
   
 
@@ -260,8 +264,8 @@ body h1{
     /*margin-left: 0vw;*/
     background: url("../images/oficina.png");
     background-size: 150px 150px; 
-    width:150px; 
-    height:150px;
+    width:125px; 
+    height:120px;
   
     
 
