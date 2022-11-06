@@ -1,0 +1,268 @@
+body{
+    background-image: url(../images/cineoscuro.webp) ;
+    background-repeat:no-repeat;background-size: 100% 100%;background-attachment:fixed;
+}
+body h1{
+    background-color: antiquewhite;
+    text-align: center;
+    
+    
+}
+.contenedor{
+
+    background-color: antiquewhite;
+   /* background-image: url(../images/galicia.png) ;
+    background-repeat:no-repeat;background-size: 1300px 500px;*/
+    position:relative;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}
+#cuadrado1{
+
+    
+     
+    float:left;
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado2{
+
+    
+    
+    float:left;
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado3{
+
+    margin: 20px;
+     
+    float:left;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado4{
+
+    
+    margin: 20px;
+    float:left;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado5{
+    
+    
+    margin: 20px;
+    float:left;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado6{
+
+    
+    float:left;
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrad7{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado8{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado9{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado10{
+
+    
+    float:left;
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado11{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado12{
+
+    
+    float:left;
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado13{
+
+    
+    float:left; 
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado14{
+
+    
+    float:left;
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado15{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado16{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrad17{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#cuadrado18{
+
+    float:left;
+     
+    margin: 20px;
+    /*margin-left: 0vw;*/
+    background: url("../images/Cuadrado/Modelo.png");
+    background-size: 150px 180px; 
+    width:150px; 
+    height:180px;
+   
+}
+#bigboss{
+
+    
+    
+    margin-top: 380px;
+    margin-left: -130px;
+    
+    /*margin-left: 0vw;*/
+    background: url("../images/vaca.png");
+    background-size: 150px 100px; 
+    width:150px; 
+    height:100px;
+  
+
+}
+#oficina{
+
+    
+    
+    margin-left: 1150px;
+    margin-top: 310px;
+    /*margin-left: 0vw;*/
+    background: url("../images/oficina.png");
+    background-size: 150px 150px; 
+    width:150px; 
+    height:150px;
+  
+    
+
+}
