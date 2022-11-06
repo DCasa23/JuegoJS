@@ -51,13 +51,13 @@ var movimientoVaca = setInterval(myCallback, 1000);
 
 function myCallback() {
     if(valor-60<valor2){
-        location.href ="http://www.google.com";
+        window.location.href ='html/gameover.html';
         
     }
     
     if(valor>=1110){
         console.log(valor);
-        location.href ="http://www.marca.com";
+        window.location.href ='html/pesca.html';;
         
     }
     

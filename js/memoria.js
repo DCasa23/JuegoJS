@@ -53,7 +53,7 @@ if(document.getElementById("player").style.marginLeft<document.getElementById("p
 }
 */
 function sombracolor(x) {
-    x.style.boxShadow = " 15px 5px 10px #48529944";
+    x.style.boxShadow = " 15px 15px 15px #48529944";
     x.style.backgroundSize = "125px 120px";
 
 }
