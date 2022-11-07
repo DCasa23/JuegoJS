@@ -11,11 +11,12 @@
 
 </head>
 
-<body ondblclick="lanzarCaña()">
+<body onwheel="recogerSedal()">
   <h1>No todo el monte es oregano</h1>
 
-  <div onmouseover="showCoords(event)"class="contenedor">
-    <div id="anzuelo"></div>
+  <div onmouseover="showCoords(event)"id="contenedor">
+    <div id="anzuelo" ondblclick="lanzarCaña()" ></div>
+    <h2 id="mensajeCompilar"></h2>
     <script src="../js/pesca.js">
 
     </script>

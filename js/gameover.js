@@ -7,7 +7,7 @@ function showCoords(event) {
       console.log(coords);
       
       if (event.clientX>=555 && event.clientX<=689 && event.clientY>=578 && event.clientY<=629){
-          location.href = "http://www.google.com";
+          window.location.href = 'veterinaria.html';
       }
       if (event.clientX>=839 && event.clientX<=900 && event.clientY>=578 && event.clientY<=629){
         document.getElementById("contenedor").style.background="url('../images/cobarde.jpg')";

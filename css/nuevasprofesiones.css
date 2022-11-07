@@ -1,0 +1,14 @@
+body{
+    background-image: url(../images/np.jpg) ;
+    background-repeat:no-repeat;background-size: 100% 100%;background-attachment:fixed;
+}
+body h1{
+    background-color: antiquewhite;
+    text-align: center;
+    
+    
+}
+body h2{
+    background-color: antiquewhite;
+    text-align: center;
+}

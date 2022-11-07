@@ -8,7 +8,12 @@ body h1{
     
     
 }
-.contenedor{
+#mensajeCompilar{
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+#contenedor{
     overflow: hidden;
     background-image: url(../images/PescaTotal.jpg) ;
     background-repeat:no-repeat;background-size: 1300px 500px;
