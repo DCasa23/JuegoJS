@@ -1,0 +1,24 @@
+body{
+    background-image: url(../images/cineoscuro.webp) ;
+    background-repeat:no-repeat;background-size: 100% 100%;background-attachment:fixed;
+}
+body h1{
+    background-color: antiquewhite;
+    text-align: center;
+    
+    
+}
+#mensajeCompilar{
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+#contenedor{
+    overflow: hidden;
+    background-image: url(../images/vencedor.jpeg) ;
+    background-repeat:no-repeat;background-size: 1300px 500px;
+    position:relative;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}

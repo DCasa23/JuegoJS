@@ -14,7 +14,7 @@ function showCoords(event) {
         document.getElementById("contenedor").style.backgroundSize = "1500px 800px";
         setTimeout(function(){ 
             window.close();
-        },3500);
+        },2500);
     }
       
     }
