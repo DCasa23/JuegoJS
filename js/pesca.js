@@ -114,7 +114,7 @@ function lanzarCaña() {
 //Función para recoger el sedal después de llegar al objeto
 function recogerSedal(){
 if (valor> 105 && valor<= 140  && valor2> 405  && valor2<= 430 ) {
-    document.getElementById('anzuelo').hidden=true;
+    $('#anzuelo').hide();
     document.getElementById("contenedor").style.background = "url('../images/botella.jpg')";
     document.getElementById("contenedor").style.backgroundSize = "1300px 500px";
     setTimeout(function(){ 
