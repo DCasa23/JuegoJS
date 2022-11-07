@@ -15,26 +15,3 @@ body h1{
     height: 500px;
     margin: 0 auto;
 }
-#player{
-
-       position:absolute;
-       margin-top: 68vh;
-       
-   
-}
-#bigboss{
-
-    position:absolute;
-    margin-top: 61vh;
-    margin-left: -150px;
-    
-
-}
-#oficina{
-
-    position:absolute;
-    margin-top: 54.5vh;
-    margin-left: 1325px;
-    
-
-}
