@@ -1,7 +1,6 @@
-alert('Utiliza las teclas izquierda y derecha para moverte...Corre por tu vida');
-alert('No tendrás mas que 3 segundos antes de empezar a correr');
-alert('Si te digo Run...RUN!!')
-contador=0;
+alert('Encuentra el Logotipo de cada lenguaje de programación. Son 9 parejas.');
+
+contador = 0;
 cuadrado1 = false;
 cuadrado2 = false;
 cuadrado3 = false;
@@ -47,11 +46,7 @@ valor = 0;
 valor2 = 0;
 numero1 = "";
 
-/*
-if(document.getElementById("player").style.marginLeft<document.getElementById("player").style.marginLeft-140){
-    location.href ="http://www.google.com";
-}
-*/
+
 function sombracolor(x) {
     x.style.boxShadow = " 15px 15px 15px #48529944";
     x.style.backgroundSize = "125px 120px";
@@ -71,31 +66,8 @@ function descubrir(x) {
             console.log("Entra en el primero");
             document.getElementById("cuadrado1").style.background = "url('../images/Cuadrado/Java.png')";
             document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-            cuadrado1=true;
+            cuadrado1 = true;
 
-            /* document.getElementById("cuadrado18").onclick = descubrirSegundo;
-             if(descubrirSegundo){
-                 function descubrirSegundo() {
-                     console.log("Entra en el segundo?");
-                     
-                         console.log("Entra en el segundo");
-                         document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/JavaD.png')";
-                         document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
-                 }
-             } else {
-                 var movimientoVaca = setInterval(myCallback, 1000);
-                 console.log("Entra en el sotroo");
-                 function myCallback() {
-                     document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-                     document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/JavaD.png')";
- 
-                 }
-                 document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/Modelo.png')";
-                 document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/Modelo.png')";
-                 document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-             }
-             
-         */
 
         } else if (x == document.getElementById("cuadrado2")) {
             document.getElementById("cuadrado2").style.background = "url('../images/Cuadrado/Python.png')";
@@ -186,405 +158,317 @@ function descubrir(x) {
         console.log(numero1);
         console.log("Entra en el segundo");
         descubierto = false;
-        
 
 
-        /*
-        if(y==document.getElementById("cuadrado1")&&document.getElementById("cuadrado18").style.background=="url('../images/Cuadrado/Java.png')"){
-            document.getElementById("cuadrado1").style.background= "url('../images/Cuadrado/Java.png')";
-            document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-        }else if(y==document.getElementById("cuadrado1")&&document.getElementById("cuadrado18").style.background!="url('../images/Cuadrado/Java.png')"){
-            document.getElementById("cuadrado18").style.background= "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
-        }else if(y==document.getElementById("cuadrado18")&&document.getElementById("cuadrado1").style.background=="url('../images/Cuadrado/JavaD.png')"){
-            document.getElementById("cuadrado18").style.background= "url('../images/Cuadrado/Java.png')";
-            document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
-        }else if(y==document.getElementById("cuadrado18")&&document.getElementById("cuadrado1").style.background!="url('../images/Cuadrado/JavaD.png')"){
-            document.getElementById("cuadrado1").style.background= "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-        }
-        */
-
-        if (x == document.getElementById("cuadrado1") && cuadrado18==true) {
+        if (x == document.getElementById("cuadrado1") && cuadrado18 == true) {
             document.getElementById("cuadrado1").style.background = "url('../images/Cuadrado/Java.png')";
             document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado1").style.pointerEvents = "none";
             document.getElementById("cuadrado18").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado1") && cuadrado18==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado1") && cuadrado18 == false) {
             document.getElementById("cuadrado1").style.background = "url('../images/Cuadrado/Java.png')";
             document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado1").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-            },500);
-        } else if (x == document.getElementById("cuadrado18") && cuadrado1==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado1").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado1").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado18") && cuadrado1 == true) {
             document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/JavaD.png')";
             document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado1").style.pointerEvents = "none";
             document.getElementById("cuadrado18").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado18") && cuadrado1==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado18") && cuadrado1 == false) {
             document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/JavaD.png')";
             document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-            },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado18").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado2") && cuadrado4==true) {
+        else if (x == document.getElementById("cuadrado2") && cuadrado4 == true) {
             document.getElementById("cuadrado2").style.background = "url('../images/Cuadrado/Python.png')";
             document.getElementById("cuadrado2").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado2").style.pointerEvents = "none";
             document.getElementById("cuadrado4").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado2") && cuadrado4==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado2") && cuadrado4 == false) {
             document.getElementById("cuadrado2").style.background = "url('../images/Cuadrado/Python.png')";
             document.getElementById("cuadrado2").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado2").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado2").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado4") && cuadrado2==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado2").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado2").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado4") && cuadrado2 == true) {
             document.getElementById("cuadrado4").style.background = "url('../images/Cuadrado/PythonD.png')";
             document.getElementById("cuadrado4").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado2").style.pointerEvents = "none";
             document.getElementById("cuadrado4").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado4") && cuadrado2==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado4") && cuadrado2 == false) {
             document.getElementById("cuadrado4").style.background = "url('../images/Cuadrado/PythonD.png')";
             document.getElementById("cuadrado4").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado4").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado4").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado4").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado4").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado3") && cuadrado13==true) {
+        else if (x == document.getElementById("cuadrado3") && cuadrado13 == true) {
             document.getElementById("cuadrado3").style.background = "url('../images/Cuadrado/JSD.png')";
             document.getElementById("cuadrado3").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado3").style.pointerEvents = "none";
             document.getElementById("cuadrado13").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado3") && cuadrado13==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado3") && cuadrado13 == false) {
             document.getElementById("cuadrado3").style.background = "url('../images/Cuadrado/JSD.png')";
             document.getElementById("cuadrado3").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado3").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado3").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado13") && cuadrado3==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado3").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado3").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado13") && cuadrado3 == true) {
             document.getElementById("cuadrado13").style.background = "url('../images/Cuadrado/JS.png')";
             document.getElementById("cuadrado13").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado3").style.pointerEvents = "none";
             document.getElementById("cuadrado13").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado13") && cuadrado3==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado13") && cuadrado3 == false) {
             document.getElementById("cuadrado13").style.background = "url('../images/Cuadrado/JS.png')";
             document.getElementById("cuadrado13").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado13").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado13").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado13").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado13").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado5") && cuadrado15==true) {
+        else if (x == document.getElementById("cuadrado5") && cuadrado15 == true) {
             document.getElementById("cuadrado5").style.background = "url('../images/Cuadrado/GoD.png')";
             document.getElementById("cuadrado5").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado5").style.pointerEvents = "none";
             document.getElementById("cuadrado15").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado5") && cuadrado15==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado5") && cuadrado15 == false) {
             document.getElementById("cuadrado5").style.background = "url('../images/Cuadrado/GoD.png')";
             document.getElementById("cuadrado5").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado5").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado5").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado15") && cuadrado5==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado5").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado5").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado15") && cuadrado5 == true) {
             document.getElementById("cuadrado15").style.background = "url('../images/Cuadrado/Go.png')";
             document.getElementById("cuadrado15").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado5").style.pointerEvents = "none";
             document.getElementById("cuadrado15").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado15") && cuadrado5==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado15") && cuadrado5 == false) {
             document.getElementById("cuadrado15").style.background = "url('../images/Cuadrado/Go.png')";
             document.getElementById("cuadrado15").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado15").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado15").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado15").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado15").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado6") && cuadrado7==true) {
+        else if (x == document.getElementById("cuadrado6") && cuadrado7 == true) {
             document.getElementById("cuadrado6").style.background = "url('../images/Cuadrado/php.png')";
             document.getElementById("cuadrado6").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado6").style.pointerEvents = "none";
             document.getElementById("cuadrado7").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado6") && cuadrado7==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado6") && cuadrado7 == false) {
             document.getElementById("cuadrado6").style.background = "url('../images/Cuadrado/php.png')";
             document.getElementById("cuadrado6").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado6").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado6").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado7") && cuadrado6==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado6").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado6").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado7") && cuadrado6 == true) {
             document.getElementById("cuadrado7").style.background = "url('../images/Cuadrado/phpD.png')";
             document.getElementById("cuadrado7").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado6").style.pointerEvents = "none";
             document.getElementById("cuadrado7").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado7") && cuadrado6==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado7") && cuadrado6 == false) {
             document.getElementById("cuadrado7").style.background = "url('../images/Cuadrado/phpD.png')";
             document.getElementById("cuadrado7").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado7").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado7").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado7").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado7").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado8") && cuadrado12==true) {
+        else if (x == document.getElementById("cuadrado8") && cuadrado12 == true) {
             document.getElementById("cuadrado8").style.background = "url('../images/Cuadrado/C++.png')";
             document.getElementById("cuadrado8").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado8").style.pointerEvents = "none";
             document.getElementById("cuadrado12").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado8") && cuadrado12==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado8") && cuadrado12 == false) {
             document.getElementById("cuadrado8").style.background = "url('../images/Cuadrado/C++.png')";
             document.getElementById("cuadrado8").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado8").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado8").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado12") && cuadrado8==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado8").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado8").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado12") && cuadrado8 == true) {
             document.getElementById("cuadrado12").style.background = "url('../images/Cuadrado/C++D.png')";
             document.getElementById("cuadrado12").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado8").style.pointerEvents = "none";
             document.getElementById("cuadrado12").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado12") && cuadrado8==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado12") && cuadrado8 == false) {
             document.getElementById("cuadrado12").style.background = "url('../images/Cuadrado/C++D.png')";
             document.getElementById("cuadrado12").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado12").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado12").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado12").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado12").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado9") && cuadrado17==true) {
+        else if (x == document.getElementById("cuadrado9") && cuadrado17 == true) {
             document.getElementById("cuadrado9").style.background = "url('../images/Cuadrado/CSharp.png')";
             document.getElementById("cuadrado9").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado9").style.pointerEvents = "none";
             document.getElementById("cuadrado17").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado9") && cuadrado17==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado9") && cuadrado17 == false) {
             document.getElementById("cuadrado9").style.background = "url('../images/Cuadrado/CSharp.png')";
             document.getElementById("cuadrado9").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado9").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado9").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado17") && cuadrado9==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado9").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado9").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado17") && cuadrado9 == true) {
             document.getElementById("cuadrado17").style.background = "url('../images/Cuadrado/CSharpD.png')";
             document.getElementById("cuadrado17").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado9").style.pointerEvents = "none";
             document.getElementById("cuadrado17").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado17") && cuadrado9==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado17") && cuadrado9 == false) {
             document.getElementById("cuadrado17").style.background = "url('../images/Cuadrado/CSharpD.png')";
             document.getElementById("cuadrado17").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado17").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado17").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado17").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado17").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado10") && cuadrado11==true) {
+        else if (x == document.getElementById("cuadrado10") && cuadrado11 == true) {
             document.getElementById("cuadrado10").style.background = "url('../images/Cuadrado/SwiftD.png')";
             document.getElementById("cuadrado10").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado10").style.pointerEvents = "none";
             document.getElementById("cuadrado11").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado10") && cuadrado11==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado10") && cuadrado11 == false) {
             document.getElementById("cuadrado10").style.background = "url('../images/Cuadrado/SwiftD.png')";
             document.getElementById("cuadrado10").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado10").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado10").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado11") && cuadrado10==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado10").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado10").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado11") && cuadrado10 == true) {
             document.getElementById("cuadrado11").style.background = "url('../images/Cuadrado/Swift.png')";
             document.getElementById("cuadrado11").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado10").style.pointerEvents = "none";
             document.getElementById("cuadrado11").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado11") && cuadrado10==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado11") && cuadrado10 == false) {
             document.getElementById("cuadrado11").style.background = "url('../images/Cuadrado/Swift.png')";
             document.getElementById("cuadrado11").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado11").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado11").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado11").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado11").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
-        else if (x == document.getElementById("cuadrado14") && cuadrado16==true) {
+        else if (x == document.getElementById("cuadrado14") && cuadrado16 == true) {
             document.getElementById("cuadrado14").style.background = "url('../images/Cuadrado/RubyD.png')";
             document.getElementById("cuadrado14").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado14").style.pointerEvents = "none";
             document.getElementById("cuadrado16").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado14") && cuadrado16==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado14") && cuadrado16 == false) {
             document.getElementById("cuadrado14").style.background = "url('../images/Cuadrado/RubyD.png')";
             document.getElementById("cuadrado14").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado14").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado14").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
-        } else if (x == document.getElementById("cuadrado16") && cuadrado14==true) {
+            setTimeout(function () {
+                document.getElementById("cuadrado14").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado14").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
+        } else if (x == document.getElementById("cuadrado16") && cuadrado14 == true) {
             document.getElementById("cuadrado16").style.background = "url('../images/Cuadrado/Ruby.png')";
             document.getElementById("cuadrado16").style.backgroundSize = "125px 120px";
             document.getElementById("cuadrado14").style.pointerEvents = "none";
             document.getElementById("cuadrado16").style.pointerEvents = "none";
-            contador=contador+2;
-        } else if (x == document.getElementById("cuadrado16") && cuadrado14==false) {
+            contador = contador + 2;
+        } else if (x == document.getElementById("cuadrado16") && cuadrado14 == false) {
             document.getElementById("cuadrado16").style.background = "url('../images/Cuadrado/Ruby.png')";
             document.getElementById("cuadrado16").style.backgroundSize = "125px 120px";
-            setTimeout(function(){ 
-            document.getElementById("cuadrado16").style.background = "url('../images/Cuadrado/Modelo.png')";
-            document.getElementById("cuadrado16").style.backgroundSize = "125px 120px";
-            numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
-            numero1.style.backgroundSize = "125px 120px";
-            todosFalsos();
-        },500);
+            setTimeout(function () {
+                document.getElementById("cuadrado16").style.background = "url('../images/Cuadrado/Modelo.png')";
+                document.getElementById("cuadrado16").style.backgroundSize = "125px 120px";
+                numero1.style.background = "url('../images/Cuadrado/Modelo.png')";
+                numero1.style.backgroundSize = "125px 120px";
+                todosFalsos();
+            }, 500);
         }
 
     }
-console.log(contador);
-document.getElementById("contador").innerHTML = "Puntos obtenidos: "+contador;
-if(contador==18){
-    location.href = "http://www.amazon.es";
-}
-}
-
-
-/*
-else if(y==document.getElementById("cuadrado2")){
-document.getElementById("cuadrado2").style.background= "url('../images/Cuadrado/Python.png')";
-document.getElementById("cuadrado2").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado3")){
-document.getElementById("cuadrado3").style.background= "url('../images/Cuadrado/JSD.png')";
-document.getElementById("cuadrado3").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado4")){
-document.getElementById("cuadrado4").style.background= "url('../images/Cuadrado/PythonD.png')";
-document.getElementById("cuadrado4").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado5")){
-document.getElementById("cuadrado5").style.background= "url('../images/Cuadrado/GoD.png')";
-document.getElementById("cuadrado5").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado6")){
-document.getElementById("cuadrado6").style.background= "url('../images/Cuadrado/php.png')";
-document.getElementById("cuadrado6").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado7")){
-document.getElementById("cuadrado7").style.background= "url('../images/Cuadrado/phpD.png')";
-document.getElementById("cuadrado7").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado8")){
-document.getElementById("cuadrado8").style.background= "url('../images/Cuadrado/C++.png')";
-document.getElementById("cuadrado8").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado9")){
-document.getElementById("cuadrado9").style.background= "url('../images/Cuadrado/CShaft.png')";
-document.getElementById("cuadrado9").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado10")){
-document.getElementById("cuadrado10").style.background= "url('../images/Cuadrado/SwiftD.png')";
-document.getElementById("cuadrado10").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado11")){
-document.getElementById("cuadrado11").style.background= "url('../images/Cuadrado/Swift.png')";
-document.getElementById("cuadrado11").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado12")){
-document.getElementById("cuadrado12").style.background= "url('../images/Cuadrado/C++D.png')";
-document.getElementById("cuadrado12").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado13")){
-document.getElementById("cuadrado13").style.background= "url('../images/Cuadrado/JS.png')";
-document.getElementById("cuadrado13").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado14")){
-document.getElementById("cuadrado14").style.background= "url('../images/Cuadrado/RubyD.png')";
-document.getElementById("cuadrado14").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado15")){
-document.getElementById("cuadrado15").style.background= "url('../images/Cuadrado/Go.png')";
-document.getElementById("cuadrado15").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado16")){
-document.getElementById("cuadrado16").style.background= "url('../images/Cuadrado/Ruby.png')";
-document.getElementById("cuadrado16").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado17")){
-document.getElementById("cuadrado17").style.background= "url('../images/Cuadrado/CShaftD.png')";
-document.getElementById("cuadrado17").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado18")){
-document.getElementById("cuadrado18").style.background= "url('../images/Cuadrado/JavaD.png')";
-document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
-}
-else if(y==document.getElementById("cuadrado18")){
-document.getElementById("cuadrado18").style.background= "url('../images/Cuadrado/JavaD.png')";
-document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
+    console.log(contador);
+    document.getElementById("contador").innerHTML = "Puntos obtenidos: " + contador;
+    
+        if (contador == 18) {
+            setTimeout(function () {
+            window.location.href = 'trabajo.html';
+        }, 1500);
+        }
+    
 }
 
-*/
+
 

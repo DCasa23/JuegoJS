@@ -16,8 +16,6 @@ body h1{
 .contenedor{
 
     background-color: antiquewhite;
-   /* background-image: url(../images/galicia.png) ;
-    background-repeat:no-repeat;background-size: 1300px 500px;*/
     position:relative;
     width: 1300px;
     height: 500px;
@@ -28,7 +26,7 @@ body h1{
     
     float:left;
     margin: 20px 20px 20px 160px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -41,7 +39,7 @@ body h1{
     
     float:left;
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -53,7 +51,7 @@ body h1{
     margin: 20px;
      
     float:left;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -65,7 +63,7 @@ body h1{
     
     margin: 20px;
     float:left;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -77,7 +75,7 @@ body h1{
     
     margin: 20px;
     float:left;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -89,7 +87,7 @@ body h1{
     
     float:left;
     margin: 20px 80px 20px 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -101,7 +99,7 @@ body h1{
     float:left;
      
     margin: 20px 20px 20px 160px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -113,7 +111,7 @@ body h1{
     float:left;
      
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -125,7 +123,7 @@ body h1{
     float:left;
      
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -137,7 +135,7 @@ body h1{
     
     float:left;
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -149,7 +147,7 @@ body h1{
     float:left;
      
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -161,7 +159,7 @@ body h1{
     
     float:left;
     margin: 20px 80px 20px 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -173,7 +171,7 @@ body h1{
     
     float:left; 
     margin: 20px 20px 20px 160px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -185,7 +183,7 @@ body h1{
     
     float:left;
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -197,7 +195,7 @@ body h1{
     float:left;
      
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -209,7 +207,7 @@ body h1{
     float:left;
      
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -221,7 +219,7 @@ body h1{
     float:left;
      
     margin: 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -233,7 +231,7 @@ body h1{
     float:left;
      
     margin: 20px 80px 20px 20px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/Cuadrado/Modelo.png");
     background-size: 125px 120px; 
     width:125px; 
@@ -247,7 +245,7 @@ body h1{
     margin-top: 380px;
     margin-left: -130px;
     
-    /*margin-left: 0vw;*/
+   
     background: url("../images/vaca.png");
     background-size: 150px 100px; 
     width:125px; 
@@ -261,7 +259,7 @@ body h1{
     
     margin-left: 1150px;
     margin-top: 310px;
-    /*margin-left: 0vw;*/
+   
     background: url("../images/oficina.png");
     background-size: 150px 150px; 
     width:125px; 

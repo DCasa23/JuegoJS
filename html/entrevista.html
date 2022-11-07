@@ -12,13 +12,20 @@
 </head>
 
 <body>
+    <header>
     <h1>Tercer Acto. Un responsable de Recursos Humanos salvaje apareció...</h1>
-
+</header>
     <div onclick="showCoords(event)" class="contenedor">
         <div onclick="mensajeNegativa()" id="inventario"></div>
+        <div id="luchar" onclick="elegirLucha()"></div>
+        <div id="pokemon" onclick="elegirPokemon()"></div>
+        <div id="mochila" onclick="elegirMochila()"></div>
+        <div id="huir" onclick="elegirHuir()"></div>
 
     </div>
+    <div id="texto">
     <h2 id="mensajeAviso"></h2>
+</div>
     <script src="../js/entrevista.js">
 
     </script>

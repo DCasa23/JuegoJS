@@ -1,4 +1,4 @@
-alert('Utiliza los cursores para moverte por el agua...Solo te queda un anzuelo, así que elige sabiamente que deseas');
+alert('Utiliza las flechas para moverte por el agua...Solo te queda un anzuelo, así que elige sabiamente que deseas');
 alert('Para lanzar la caña, debes pulsar doble click sobre el anzuelo. Cuando estes sobre aquello que deseas,gira la rueda del raton.');
 alert('Estamos pescando y ya hemos cogido suficientes peces...A lo mejor aquello que brilla al fondo es importante...');
 function eliminarAnzuelo(x){
@@ -140,14 +140,14 @@ function correr(e) {
         console.log(anzuelo.style.marginLeft);
 
 
-        // left arrow
+        // Flecha Izquierdo
     }
     if (e.keyCode == '39' && valor < 1080) {
         valor = 25 + valor;
         anzuelo.style.marginLeft = valor + "px";
 
 
-        // right arrow
+        // Flecha Derecho
     }
     if (e.keyCode == '40' && anzuelo.style.marginTop < 420 + "px") {
         valor2 = valor2 + 25;
@@ -163,28 +163,3 @@ function correr(e) {
 
 }
 
-/*
-function showCoords(event) {
-  var bounds = event.target.getBoundingClientRect();
-  var x = event.clientX - bounds.left;
-  var y = event.clientY - bounds.top;
-    var coords = "X coords: " + x + ", Y coords: " + y;
-    
-    console.log(coords);
-    
-    if (event.clientX>=250&&event.clientX<=280){
-        location.href = "http://www.google.com";
-    }
-    
-  }
-*/
-
-
-
-
-
-/*
-if(document.getElementById("player").style.marginLeft<document.getElementById("player").style.marginLeft-140){
-    location.href ="http://www.google.com";
-}
-*/

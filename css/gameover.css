@@ -5,9 +5,32 @@ body{
 #contenedor{
 
     background-image: url(../images/Continue.png) ;
-    background-repeat:no-repeat;background-size: 1500px 800px;
+    background-repeat:no-repeat;background-size: 1600px 900px;
     position:relative;
-    width: 1500px;
-    height: 700px;
+    width: 1600px;
+    height: 900px;
     margin: 0 auto;
+}
+#si{
+
+    position:absolute;
+    margin-top: 590px;
+    margin-left: 560px;
+    
+    background: url("../images/yes.png");
+    background-size: 200px 120px; 
+    width:200px; 
+    height:120px;
+   
+}
+#no{
+
+    position:absolute;
+    margin-top: 590px;
+    margin-left:810px;
+    background: url("../images/no.png");
+    background-size: 200px 120px; 
+    width:200px; 
+    height:120px;
+   
 }

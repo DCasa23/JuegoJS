@@ -19,20 +19,20 @@ function correr(e) {
         pasos = true;
 
 
-        // up arrow
+        // Cursor Arriba
     }
     if (e.keyCode == '39' && pasos == true) {
         valor = valor + 15;
         pasos = false;
 
 
-        // down arrow
+        // Cursor Abajo
     }
     if (e.keyCode == '40') {
-        // left arrow
+        // Cursor Izquierdo
     }
     if (e.keyCode == '38') {
-        // right arrow
+        // Cursor Derecho
     }
 
     
@@ -69,8 +69,4 @@ function myCallback() {
 }
 
 }, 3000); 
-/*
-if(document.getElementById("player").style.marginLeft<document.getElementById("player").style.marginLeft-140){
-    location.href ="http://www.google.com";
-}
-*/
+

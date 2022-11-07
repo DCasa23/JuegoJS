@@ -22,25 +22,12 @@ body h1{
     height: 500px;
     margin: 0 auto;
 }
-/*
-body{
-    background-image: url(../images/PescaTotal.jpg) ;
-    background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;
-}*/
+
 body h1{
     text-align: center;
     
 }
-/*
-#fondoFalso{
-    position:relative;
-    width: 100vh;
-    
-}
 
-.contenedor{
-    position:relative;
-}*/
 #anzuelo{
 
        position:absolute;
