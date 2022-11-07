@@ -20,21 +20,16 @@ function correr(e) {
         pasos = true;
 
 
-        // Cursor Arriba
+        // Flecha Izquierda
     }
     if (e.keyCode == '39' && pasos == true) {
         valor = valor + 15;
         pasos = false;
 
 
-        // Cursor Abajo
+        // Flecha Derecha
     }
-    if (e.keyCode == '40') {
-        // Cursor Izquierdo
-    }
-    if (e.keyCode == '38') {
-        // Cursor Derecho
-    }
+    
 
     //Permite regular la velocidad de transición del jugador
     document.getElementById("player").style.transitionDuration = "500ms";
