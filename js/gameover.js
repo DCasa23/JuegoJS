@@ -1,4 +1,4 @@
-
+    //Funciones para pulsar si o no en los botones
     function PulsarSi(){
      
           window.location.href = 'veterinaria.html';

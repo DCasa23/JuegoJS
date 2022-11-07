@@ -1,10 +1,10 @@
+//Instrucciones para el control
+
 alert('Utiliza las flechas para moverte por el agua...Solo te queda un anzuelo, así que elige sabiamente que deseas');
 alert('Para lanzar la caña, debes pulsar doble click sobre el anzuelo. Cuando estes sobre aquello que deseas,gira la rueda del raton.');
 alert('Estamos pescando y ya hemos cogido suficientes peces...A lo mejor aquello que brilla al fondo es importante...');
-function eliminarAnzuelo(x){
-    x.remove();
-}
 
+//Función para lanzar el anzuelo de forma random
 function lanzarCaña() {
     valor2 = 140;
     valor = Math.floor(Math.random() * 1080)
@@ -14,6 +14,7 @@ function lanzarCaña() {
     var movimientoVaca = setInterval(myCallback, 1000);
     function myCallback() {
 
+        //Coordenadas por medio del valor para conocer la posición anzuelo y la colisión con los peces
         if (anzuelo.style.marginTop <= 430 + "px") {
             if (valor > 150 && valor <= 200 && valor2 > 190 && valor2 <= 245) {
                 document.getElementById("anzuelo").remove();
@@ -101,7 +102,7 @@ function lanzarCaña() {
             }
 
 
-            console.log("El valor Vaca es:" + valor + " y el valor real: " + valor2);
+            console.log("El valor anzuelo es:" + valor + " y el otro valor: " + valor2);
             valor2 = valor2 + 5;
             document.getElementById("anzuelo").style.transitionDuration = "1s";
             document.getElementById("anzuelo").style.marginTop = valor2 + "px";
@@ -110,12 +111,14 @@ function lanzarCaña() {
 
     }
 }
+//Función para recoger el sedal después de llegar al objeto
 function recogerSedal(){
 if (valor> 105 && valor<= 140  && valor2> 405  && valor2<= 430 ) {
     document.getElementById('anzuelo').hidden=true;
     document.getElementById("contenedor").style.background = "url('../images/botella.jpg')";
     document.getElementById("contenedor").style.backgroundSize = "1300px 500px";
     setTimeout(function(){ 
+        //Función para cambiar el fondo y emitir el mensaje
     document.getElementById("mensajeCompilar").innerHTML = "´Protagonista: ¿Compilar?Debo aprender que es eso...";
 },2500);
 setTimeout(function(){ 
@@ -126,8 +129,9 @@ setTimeout(function(){
 },9500);
 }
 }
-document.onkeydown = correr;
-function correr(e) {
+//Función para mover el sedal por el agua
+document.onkeydown = moverSedal;
+function moverSedal(e) {
 
     e = e || window.event;
 

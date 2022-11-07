@@ -1,3 +1,4 @@
+//Instrucciones para saber como jugar.
 alert('Utiliza las teclas izquierda y derecha para moverte...Corre por tu vida');
 alert('No tendrás mas que 3 segundos antes de empezar a correr');
 alert('Si te digo Run...RUN!!')
@@ -5,7 +6,7 @@ pasos = false;
 valor = 0;
 valor2 = 0;
 document.onkeydown = correr;
-
+//Función para correr pulsando izquierda y derecha
 function correr(e) {
 
     
@@ -35,11 +36,12 @@ function correr(e) {
         // Cursor Derecho
     }
 
-    
+    //Permite regular la velocidad de transición del jugador
     document.getElementById("player").style.transitionDuration = "500ms";
     document.getElementById("player").style.marginLeft = valor + "px";
     
 }
+//Función que permite comprobar el espacio entre el jugador y el enemigo(la fisica de colisión)
 setTimeout(function(){ 
 	
     if(valor-100<valor2){

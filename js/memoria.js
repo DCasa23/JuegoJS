@@ -46,18 +46,21 @@ valor = 0;
 valor2 = 0;
 numero1 = "";
 
-
+//Función para sombrear los botones
 function sombracolor(x) {
     x.style.boxShadow = " 15px 15px 15px #48529944";
     x.style.backgroundSize = "125px 120px";
 
 }
+//Función para quitar el sombreado a los botones
 function fuerasombracolor(x) {
     x.style.boxShadow = "none";
 
 
 }
+//Función para levantar las cartas
 function descubrir(x) {
+    //El primer if es para saber si es la primera carta
     if (!descubierto) {
         numero1 = x;
         descubierto = true;
@@ -155,10 +158,12 @@ function descubrir(x) {
             cuadrado18 = true;
         }
     } else {
+        //Este consiste en levantar la segunda carta después de comprobar un interruptor
         console.log(numero1);
         console.log("Entra en el segundo");
         descubierto = false;
 
+        //Se comprueba las diferentes posibilidades de verdadero y falso al ser diferentes combinaciones
 
         if (x == document.getElementById("cuadrado1") && cuadrado18 == true) {
             document.getElementById("cuadrado1").style.background = "url('../images/Cuadrado/Java.png')";
@@ -459,15 +464,22 @@ function descubrir(x) {
         }
 
     }
+    //Permite dibujar el resultado en tiempo real
     console.log(contador);
     document.getElementById("contador").innerHTML = "Puntos obtenidos: " + contador;
-    
-        if (contador == 18) {
-            setTimeout(function () {
+
+    //Comprueba si ya ha resuelto todo.
+    if (contador == 18) {
+        //Permite guardar una key por medio de localStorage
+        localStorage.setItem('puntos', 18);
+        
+        setTimeout(function () {
+
+
             window.location.href = 'trabajo.html';
         }, 1500);
-        }
-    
+    }
+
 }
 
 

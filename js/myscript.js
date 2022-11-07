@@ -1,4 +1,4 @@
-
+//Funciones encadenadas para mover por la pantalla el ratón y capturar el mensaje
 function mover() {
     document.getElementById("fugitivo").style.margin = "50px";
     document.getElementById("fugitivo").innerHTML = "Uy,perdón, me he movido sin querer. Da sobre mi";
@@ -16,6 +16,7 @@ function mover() {
                 document.getElementById("fugitivo").innerHTML = "Vale,mejor empezamos la historia, perdona...";
                 document.getElementById("fugitivo").onmouseenter = vaca;
             }
+            //Aparición de la vaca
             function vaca() {
 
                 document.getElementById("fugitivo").style.margin = "10px 100px";

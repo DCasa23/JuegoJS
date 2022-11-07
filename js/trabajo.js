@@ -1,3 +1,8 @@
+//Permite devolver un valor por medio de un localStorage
+let puntosTotales=parseInt(localStorage.getItem('puntos'));
+
+document.getElementById("mensajeFinal").innerHTML="Su puntuación fue perfecta en su prueba de acceso y obtuvo: "+puntosTotales;
+//Permitirá cambiar el fondo del contenido y reproducir la musica final
 function aceptarTrabajo(){
     document.getElementById("contenedor").style.background="url('../images/vencedor.jfif')";
     document.getElementById("contenedor").style.backgroundSize = "1500px 800px";
