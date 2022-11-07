@@ -8,14 +8,14 @@ body h1{
     
     
 }
-#mensajeCompilar{
+#mensajeVictoria{
     background-color: antiquewhite;
     text-align: center;
     
 }
 #contenedor{
     overflow: hidden;
-    background-image: url(../images/vencedor.jpeg) ;
+    background-image: url(../images/empresario.jpeg) ;
     background-repeat:no-repeat;background-size: 1300px 500px;
     position:relative;
     width: 1300px;
