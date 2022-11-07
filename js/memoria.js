@@ -588,6 +588,3 @@ document.getElementById("cuadrado18").style.backgroundSize = "125px 120px";
 
 */
 
-if(contador==18){
-    location.href = "http://www.amazon.es";
-}
