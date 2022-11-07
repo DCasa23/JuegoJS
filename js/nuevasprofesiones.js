@@ -4,7 +4,7 @@ function mouseEspera(e){
     }
 setTimeout(function(){
     
-    document.getElementById("mensajeDLC").innerHTML = "Uuupss...Pero la pagina se encuentra en versión Beta<br>Si lo desea puede obtener nuestra versión de prueba por apenas 20€ y así saber la historia en EUSA";
+    document.getElementById("mensajeDLC").innerHTML = "Uuupss...Pero la pagina se encuentra en versión Beta<br>Si lo desea puede obtener nuestra versión de prueba por apenas 20€ y así saber la historia de nuestro protagonista en EUSA.";
 
 },2500);
 setTimeout(function(){

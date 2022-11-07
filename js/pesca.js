@@ -1,3 +1,6 @@
+alert('Utiliza los cursores para moverte por el agua...Solo te queda un anzuelo, así que elige sabiamente que deseas');
+alert('Para lanzar la caña, debes pulsar doble click sobre el anzuelo. Cuando estes sobre aquello que deseas,gira la rueda del raton.');
+alert('Estamos pescando y ya hemos cogido suficientes peces...A lo mejor aquello que brilla al fondo es importante...');
 function eliminarAnzuelo(x){
     x.remove();
 }
@@ -113,7 +116,10 @@ if (valor> 105 && valor<= 140  && valor2> 405  && valor2<= 430 ) {
     document.getElementById("contenedor").style.background = "url('../images/botella.jpg')";
     document.getElementById("contenedor").style.backgroundSize = "1300px 500px";
     setTimeout(function(){ 
-    document.getElementById("mensajeCompilar").innerHTML = "¿Compilar?Debo aprender que es eso...";
+    document.getElementById("mensajeCompilar").innerHTML = "´Protagonista: ¿Compilar?Debo aprender que es eso...";
+},2500);
+setTimeout(function(){ 
+    document.getElementById("mensajeCompilar").innerHTML = "Protagonista: ¿Compilar?Debo aprender que es eso...<br>Y así es como nuestro heroe decidió emprender su carrera como programador en EUSA...";
 },2500);
 setTimeout(function(){  
     window.location.href ='nuevasprofesiones.html';

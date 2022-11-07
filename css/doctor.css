@@ -8,19 +8,14 @@ body h1{
     
     
 }
-#mensajeVictoria{
-    background-color: antiquewhite;
-    text-align: center;
-    
-}
-#mensajeFinal{
+body h2{
     background-color: antiquewhite;
     text-align: center;
     
 }
 #contenedor{
     overflow: hidden;
-    background-image: url(../images/empresario.jpeg) ;
+    background-image: url(../images/veterinario.webp) ;
     background-repeat:no-repeat;background-size: 1300px 500px;
     position:relative;
     width: 1300px;

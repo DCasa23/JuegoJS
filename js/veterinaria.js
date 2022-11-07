@@ -57,7 +57,7 @@ function myCallback() {
     
     if(valor>=1110){
         console.log(valor);
-        window.location.href ='pesca.html';
+        window.location.href ='doctor.html';
         
     }
     
@@ -68,7 +68,7 @@ function myCallback() {
     document.getElementById("bigboss").style.marginLeft = valor2 + "px";
 }
 
-}, 2000); 
+}, 3000); 
 /*
 if(document.getElementById("player").style.marginLeft<document.getElementById("player").style.marginLeft-140){
     location.href ="http://www.google.com";
